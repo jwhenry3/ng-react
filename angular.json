@@ -46,6 +46,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "react",
+              "react-dom"
+            ],
             "outputPath": "dist/apps/playground",
             "index": "apps/playground/src/index.html",
             "main": "apps/playground/src/main.ts",
