@@ -6,3 +6,6 @@ cache:
     - node_modules
 before_install:
   - npm i -g npm
+script:
+  - npm run build --if-present
+  - npm test
