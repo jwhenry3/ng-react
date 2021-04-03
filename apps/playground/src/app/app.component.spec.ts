@@ -1,10 +1,17 @@
+import { Component } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+@Component({
+  selector: 'feature',
+  template: '<div>Works</div>'
+})
+export class TestFeatureComponent {
 
+}
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [AppComponent],
+      declarations: [AppComponent, TestFeatureComponent],
     }).compileComponents();
   });
 

@@ -1,2 +1,2 @@
-export * from './lib/test/test';
-export * from './lib/feature';
+export { Test, TestProps } from './lib/test/test';
+export { Feature, FeatureProps } from './lib/feature';

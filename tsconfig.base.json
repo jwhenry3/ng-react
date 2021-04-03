@@ -19,7 +19,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "paths": {
-      "@playground/feature": ["libs/feature/src/index.ts"]
+      "@playground/feature": ["./libs/feature/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
